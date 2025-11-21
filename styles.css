@@ -1,23 +1,19 @@
-/*style.css*/
 div {
-    display: grid;
-    flex-direction: row;
+    display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-div {
     div {
-        padding: 1.5rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
         font-family: sans-serif;
         background: #ffffff;
         border: 2px solid #a6e4f5;
         border-radius: 0.5rem;
+        width: min(15rem, 90%);
     }
+
 }
 
 label {
@@ -40,9 +36,10 @@ label {
     border-radius: 0.5rem;
 }
 
-#form_submit {
-    background-color: white;
+#login_submit, #register_submit {
+    background-color: rgb(192, 227, 231);
     padding: 0.5rem;
+    margin-top: 0.5rem;
     width: 100%;
     border: 1px solid #a6e4f5;
     border-radius: 0.5rem;
